@@ -21,7 +21,7 @@ export default function Login(props) {
           <form action="" className="text-center h-80 md:h-96 w-full">
             <div className="leading-[50px] my-2.5 pt-10">
               <input
-              className="w-[120px] md:w-[316px] rounded-full hover:bg-gray-200 border-solid border-2 hover:border-black"
+              className="w-[120px] md:w-[316px] hover:bg-gray-200 border-solid border-2 hover:border-black"
                 type="text"
                 name="userId"
                 id="userId"
@@ -30,7 +30,7 @@ export default function Login(props) {
             </div>
             <div className="leading-[50px] my-2.5">
               <input
-                className="w-[120px] md:w-[316px] rounded-full hover:bg-gray-200 border-solid border-2 hover:border-black" 
+                className="w-[120px] md:w-[316px] hover:bg-gray-200 border-solid border-2 hover:border-black" 
                 type="Password"
                 name="Password"
                 id="Password"
@@ -38,7 +38,7 @@ export default function Login(props) {
               />
             </div>
             <div className="leading-[50px] my-2.5">
-              <select name="Role" className="w-[120px] md:w-[316px] h-[50px] rounded-full hover:bg-gray-200 border-solid border-2 hover:border-black" id="Role">
+              <select name="Role" className="w-[120px] md:w-[316px] h-[50px] hover:bg-gray-200 border-solid border-2 hover:border-black" id="Role">
                 <option className="options" value="" selected>
                   Select your Role
                 </option>
